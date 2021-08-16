@@ -1,0 +1,64 @@
+.cardShadow {
+	width: 100%;
+	min-height: 100vh;
+	overflow-y: scroll;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	transition: 1s;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 150ms;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.detail {
+	width: 80%;
+	border-radius: 1rem;
+	padding: 2rem 2rem;
+	background: white;
+	position: absolute;
+	left: 10%;
+	color: black;
+	img {
+		width: 100%;
+	}
+}
+
+.info {
+	text-align: center;
+}
+.platforms {
+	display: flex;
+	justify-content: space-evenly;
+	img {
+		margin-left: 3rem;
+	}
+}
+
+.media {
+	margin-top: 5rem;
+	img {
+		width: 100%;
+	}
+}
+
+.description {
+	margin: 5rem 0rem;
+}
+
+.fixCenter img:first-child{
+ margin-left: 0px !important;
+}

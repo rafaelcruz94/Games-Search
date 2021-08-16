@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACV,MAAM,EAAE,MAAM;CACd",
+    "sources": [
+        "GameCard.scss"
+    ],
+    "names": [],
+    "file": "GameCard.css"
+}
