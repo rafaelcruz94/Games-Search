@@ -1,8 +1,7 @@
 # Games Search Page - ReactJS, Tailwind CSS, Redux toolkit, Etc  
 Live Demo - https://game-search-rfc.netlify.app/
 
-
-
+![ezgif-4-1e922051b64c](https://user-images.githubusercontent.com/84050601/129501289-1215a4f0-c4b5-42f2-af1b-819ca4485a23.gif)
 
 # Getting Started with Create React App
 
